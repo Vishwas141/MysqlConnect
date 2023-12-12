@@ -1,0 +1,50 @@
+# Ignore system and IDE files
+.vscode/
+.idea/
+*.iml
+*.DS_Store
+
+# Ignore dependencies
+node_modules/
+bower_components/
+venv/
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore environment configuration
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.staging
+.env.production
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore compiled binaries
+*.pyc
+*.pyo
+
+# Ignore local development files
+db.sqlite3
+db.sqlite
+*.sqlite3
+*.sqlite
+
+# Ignore package manager files
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+
+# Ignore sensitive or personal files
+secrets.json
+*.key
+*.pem
